@@ -1,0 +1,397 @@
+{
+    "data": [
+        {
+            "BMC": "unspecified",
+            "GRADE": "Mill Generic",
+            "description": "6mm Flat Endmill",
+            "expressions": {
+                "tool_numberOfFlutes": "2"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 6,
+                "HAND": true,
+                "LB": 22.5,
+                "LCF": 20,
+                "NOF": 2,
+                "OAL": 63,
+                "SFDM": 6,
+                "assemblyGaugeLength": 83.1042,
+                "shoulder-length": 20
+            },
+            "guid": "55a89dcf-4522-48fd-aba2-b12a41202153",
+            "holder": {
+                "description": "BT40 - B4C3-0032",
+                "gaugeLength": 60.6042,
+                "guid": "b9bb0380-1764-4c7d-b577-63dda38a5dd2",
+                "last_modified": 1645625075158,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "{04ff9f1d-1a84-4413-9499-659c39877517}",
+                "segments": [
+                    {
+                        "height": 3.6576,
+                        "lower-diameter": 32.385,
+                        "upper-diameter": 47.625
+                    },
+                    {
+                        "height": 18.3134,
+                        "lower-diameter": 47.625,
+                        "upper-diameter": 47.625
+                    },
+                    {
+                        "height": 1.016,
+                        "lower-diameter": 47.625,
+                        "upper-diameter": 45.593
+                    },
+                    {
+                        "height": 9.0932,
+                        "lower-diameter": 39.878,
+                        "upper-diameter": 39.878
+                    },
+                    {
+                        "height": 1.524,
+                        "lower-diameter": 39.878,
+                        "upper-diameter": 42.926
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 61,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 4.4,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 2.887,
+                        "lower-diameter": 63,
+                        "upper-diameter": 53
+                    },
+                    {
+                        "height": 4.226,
+                        "lower-diameter": 53,
+                        "upper-diameter": 53
+                    },
+                    {
+                        "height": 2.887,
+                        "lower-diameter": 53,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 8.6,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63,
+                        "upper-diameter": 61
+                    },
+                    {
+                        "height": 2,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 0,
+                "length-offset": 0,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "SAMPLE preset for slotting in Aluminum",
+                        "expressions": {
+                            "tool_coolant": "'disabled'",
+                            "tool_feedCutting": "5000 mm/min",
+                            "tool_spindleSpeed": "12000 rpm"
+                        },
+                        "f_n": 0.027777777777777783,
+                        "f_z": 0.20833333333333331,
+                        "guid": "ed6f4fc4-2500-46e2-9a13-316331d98fac",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 12000,
+                        "n_ramp": 12000,
+                        "name": "Wood - MDF",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 226.1946710584651,
+                        "v_f": 5000,
+                        "v_f_leadIn": 5000,
+                        "v_f_leadOut": 5000,
+                        "v_f_plunge": 333.3333333333333,
+                        "v_f_ramp": 333.3333333333333,
+                        "v_f_transition": 5000
+                    },
+                    {
+                        "description": "SAMPLE preset for roughing in Aluminum",
+                        "f_n": 0.0663453608247423,
+                        "f_z": 0.0995180412371134,
+                        "guid": "2974ea6b-49f4-4122-a104-138f7effcafe",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 12000,
+                        "n_ramp": 12000,
+                        "name": "Aluminum - Roughing",
+                        "stepdown": 15,
+                        "stepover": 1.108409773520578,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 226.1946710584651,
+                        "v_f": 2388.4329896907216,
+                        "v_f_leadIn": 2388.4329896907216,
+                        "v_f_leadOut": 2388.4329896907216,
+                        "v_f_plunge": 796.1443298969075,
+                        "v_f_ramp": 2388.4329896907216,
+                        "v_f_transition": 2388.4329896907216
+                    },
+                    {
+                        "description": "SAMPLE preset for finishing in Aluminum",
+                        "f_n": 0.08383515463917526,
+                        "f_z": 0.1257527319587629,
+                        "guid": "e83c3b2e-460b-45b1-b746-02b38c0181b9",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 12000,
+                        "n_ramp": 12000,
+                        "name": "Aluminum - Finishing",
+                        "stepdown": 15,
+                        "stepover": 0.671572367887004,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 226.1946710584651,
+                        "v_f": 3018.06556701031,
+                        "v_f_leadIn": 3018.06556701031,
+                        "v_f_leadOut": 3018.06556701031,
+                        "v_f_plunge": 1006.0218556701032,
+                        "v_f_ramp": 3018.06556701031,
+                        "v_f_transition": 3018.06556701031
+                    },
+                    {
+                        "description": "SAMPLE preset for slotting in Plastics",
+                        "f_n": 0.0666216494845361,
+                        "f_z": 0.0999324742268041,
+                        "guid": "2823ca6f-3665-48f4-9fa1-0b61d9f36966",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 12000,
+                        "n_ramp": 12000,
+                        "name": "Plastics - Slotting",
+                        "stepdown": 1.610512216900723,
+                        "stepover": 6,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 226.1946710584651,
+                        "v_f": 2398.379381443299,
+                        "v_f_leadIn": 2398.379381443299,
+                        "v_f_leadOut": 2398.379381443299,
+                        "v_f_plunge": 799.459793814433,
+                        "v_f_ramp": 2398.379381443299,
+                        "v_f_transition": 2398.379381443299
+                    },
+                    {
+                        "description": "SAMPLE preset for roughing in Plastics",
+                        "f_n": 0.0666216494845361,
+                        "f_z": 0.0999324742268041,
+                        "guid": "49fe2231-5c58-4323-91d1-88ebc10d4564",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 12000,
+                        "n_ramp": 12000,
+                        "name": "Plastics - Roughing",
+                        "stepdown": 15,
+                        "stepover": 1.108409773520578,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 226.1946710584651,
+                        "v_f": 2398.379381443299,
+                        "v_f_leadIn": 2398.379381443299,
+                        "v_f_leadOut": 2398.379381443299,
+                        "v_f_plunge": 799.459793814433,
+                        "v_f_ramp": 2398.379381443299,
+                        "v_f_transition": 2398.379381443299
+                    },
+                    {
+                        "description": "SAMPLE preset for finishing in Plastics",
+                        "f_n": 0.08342072164948454,
+                        "f_z": 0.12513108247422683,
+                        "guid": "e7cb1913-8694-4016-b8f4-0b8e22065a66",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "n": 12000,
+                        "n_ramp": 12000,
+                        "name": "Plastics - Finishing",
+                        "stepdown": 15,
+                        "stepover": 0.671572367887004,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 226.1946710584651,
+                        "v_f": 3003.145979381444,
+                        "v_f_leadIn": 3003.145979381444,
+                        "v_f_leadOut": 3003.145979381444,
+                        "v_f_plunge": 1001.0486597938144,
+                        "v_f_ramp": 3003.145979381444,
+                        "v_f_transition": 3003.145979381444
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "description": "",
+            "expressions": {
+                "tool_kerfWidth": "(0,4) mm",
+                "tool_nozzleDiameter": "10 mm"
+            },
+            "geometry": {
+                "CW": 0.4,
+                "JET_HEAD_CLEARANCE": 1,
+                "JET_NOZZLE_DIAMETER": 10
+            },
+            "guid": "b9ed299c-d7b4-4baf-9bb7-3274069d6f1f",
+            "post-process": {
+                "comment": "",
+                "diameter-offset": 1,
+                "length-offset": 1,
+                "manual-tool-change": false,
+                "number": 1
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "assistGas": "Oxygen",
+                        "cutHeight": 1,
+                        "cutPower": 800,
+                        "guid": "d8bb5152-41d0-4233-9bd0-1687d585d70f",
+                        "machineQualityControl": "manual",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "name": "Default preset",
+                        "pierceHeight": 3.5,
+                        "piercePower": 800,
+                        "pierceTime": 1,
+                        "pressure": 2,
+                        "v_f": 1000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000
+                    },
+                    {
+                        "assistGas": "Oxygen",
+                        "cutHeight": 1,
+                        "cutPower": 6,
+                        "expressions": {
+                            "tool_cutHeight": "1 mm",
+                            "tool_cutPower": "6",
+                            "tool_feedCutting": "2000 mmpm",
+                            "tool_piercePower": "6"
+                        },
+                        "guid": "2af874df-8540-4629-9000-eb889ccf16d0",
+                        "machineQualityControl": "manual",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "name": "IKEA MÅLA ritrulle - skära P=100%",
+                        "pierceHeight": 3.5,
+                        "piercePower": 6,
+                        "pierceTime": 1,
+                        "pressure": 2,
+                        "v_f": 2000,
+                        "v_f_leadIn": 2000,
+                        "v_f_leadOut": 2000
+                    },
+                    {
+                        "assistGas": "Oxygen",
+                        "cutHeight": 1,
+                        "cutPower": 6,
+                        "expressions": {
+                            "tool_cutHeight": "1 mm",
+                            "tool_cutPower": "6",
+                            "tool_feedCutting": "5000 mmpm",
+                            "tool_piercePower": "6"
+                        },
+                        "guid": "79770b46-d8b3-4144-8b77-5ed134a0a0ec",
+                        "machineQualityControl": "manual",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "name": "IKEA MÅLA ritrulle - märka  P=100%",
+                        "pierceHeight": 3.5,
+                        "piercePower": 6,
+                        "pierceTime": 1,
+                        "pressure": 2,
+                        "v_f": 5000,
+                        "v_f_leadIn": 5000,
+                        "v_f_leadOut": 5000
+                    },
+                    {
+                        "assistGas": "Oxygen",
+                        "cutHeight": 1,
+                        "cutPower": 800,
+                        "expressions": {
+                            "tool_feedCutting": "2900 mmpm"
+                        },
+                        "guid": "0cf4456f-c1cf-48c5-80c4-114d45a39239",
+                        "machineQualityControl": "manual",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "name": "210D polyester, PU coated, 130 GSM",
+                        "pierceHeight": 3.5,
+                        "piercePower": 800,
+                        "pierceTime": 1,
+                        "pressure": 2,
+                        "v_f": 2900,
+                        "v_f_leadIn": 2900,
+                        "v_f_leadOut": 2900
+                    }
+                ]
+            },
+            "type": "laser cutter",
+            "unit": "millimeters",
+            "vendor": ""
+        }
+    ],
+    "version": 25
+}

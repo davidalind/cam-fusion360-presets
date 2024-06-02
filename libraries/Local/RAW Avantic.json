@@ -385,6 +385,28 @@
                         "v_f": 2900,
                         "v_f_leadIn": 2900,
                         "v_f_leadOut": 2900
+                    },
+                    {
+                        "assistGas": "Oxygen",
+                        "cutHeight": 1,
+                        "cutPower": 800,
+                        "expressions": {
+                            "tool_feedCutting": "600 mmpm"
+                        },
+                        "guid": "c65a3371-dd52-47f2-8dd1-90d5e5beffcc",
+                        "machineQualityControl": "manual",
+                        "material": {
+                            "category": "all",
+                            "query": ""
+                        },
+                        "name": "Formex cut",
+                        "pierceHeight": 3.5,
+                        "piercePower": 800,
+                        "pierceTime": 1,
+                        "pressure": 2,
+                        "v_f": 600,
+                        "v_f_leadIn": 600,
+                        "v_f_leadOut": 600
                     }
                 ]
             },
